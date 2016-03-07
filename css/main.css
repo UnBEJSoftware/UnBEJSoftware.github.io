@@ -1,18 +1,4 @@
-/**
-*
-* ---------------------------------------------------------------------------
-*
-* Template : Blue - A One-Page HTML Portfolio/Business Template
-* Author : Muhammad Morshd
-* Author URI : http://morsheds.com
-*
-* --------------------------------------------------------------------------- 
-*
-*/
 
-/* =================================== */
-/*	Basic Style 
-/* =================================== */
 #itemSecao1:hover, #itemSecao1:active, #itemSecao1:focus{
 	color: #2879B9;
 }
@@ -20,7 +6,11 @@
 #membros .sec-title h2:after {
     border-bottom: 1px solid #fff;
 }
-
+.servico{
+	float:left;
+	position: relative;
+	left:33.5%;
+}
 .letraMenor h3{
 	font-size:18px;
 }
