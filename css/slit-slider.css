@@ -23,7 +23,6 @@
 	width: 100%;
 }
 
-/* Custom navigation arrows */
 
 .nav-arrows span {
 	position: absolute;
@@ -94,7 +93,6 @@
 	color: #fff;
 }
 
-/* Custom navigation dots */
 
 .nav-dots {
 	text-align: center;
@@ -165,7 +163,7 @@
 }
 
 
-/* Animations for content elements */
+
 
 .sl-trans-elems .caption-content h2 {
 	-webkit-animation: moveUp 1s ease-in-out both;

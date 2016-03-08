@@ -101,7 +101,7 @@ main > section {
     background-color: #009EE3;
 }
 
-/* Sweep To Right */
+
 .btn-effect {
 	vertical-align: middle;
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -220,9 +220,7 @@ main > section {
 }
 
 
-/**
-/*	Preloader
-/* ==========================================*/
+
 
 #preloader {
     background-color: #fff;
@@ -232,7 +230,7 @@ main > section {
     z-index: 9999;
 }
 
-/*Battery*/
+
 .loder-box {
   background-color: rgba(0, 0, 0, 0.02);
   border-radius: 1px;
@@ -288,9 +286,7 @@ main > section {
 
 
 
-/**
-/*	Header
-/* ==========================================*/
+
 
 #navigation {
     -webkit-transition: all 0.8s ease 0s;
@@ -326,9 +322,7 @@ h1.navbar-brand {
 }
 
 
-/*=================================================================
-	Home Slider
-==================================================================*/
+
 
 
 #home-slider {
@@ -349,7 +343,7 @@ h1.navbar-brand {
     left: 0;
 }
 
-/* Slide wrapper and slides */
+
 
 .sl-slide,
 .sl-slides-wrapper,
@@ -404,7 +398,7 @@ h1.navbar-brand {
     margin-bottom: 65px;
 }
 
-/* The duplicate parts/slices */
+
 
 .sl-content-slice {
     overflow: hidden;
@@ -421,7 +415,7 @@ h1.navbar-brand {
     opacity : 1;
 }
 
-/* Horizontal slice */
+
 
 .sl-slide-horizontal .sl-content-slice {
     width: 100%;
@@ -444,7 +438,7 @@ h1.navbar-brand {
     padding: 0px 200px 200px 200px;
 }
 
-/* Vertical slice */
+
 
 .sl-slide-vertical .sl-content-slice {
     width: 50%;
@@ -467,8 +461,7 @@ h1.navbar-brand {
     padding: 200px 200px 200px 0px;
 }
 
-/* Content wrapper */
-/* Width and height is set dynamically */
+
 .sl-content-wrapper {
     position: absolute;
 }
@@ -478,37 +471,7 @@ h1.navbar-brand {
     height: 100%;
 }
 
-/* Default styles for background colors
 
-.btn-effect:after {
-    width: 0%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #fff;
-    content: "";
-    position: absolute;
-    z-index: -1;
-
-    -webkit-transition: all 0.3s ease-out 0s;
-       -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-         -o-transition: all 0.3s ease-out 0s;
-            transition: all 0.3s ease-out 0s;
-}
-
-.btn-effect:hover,
-.btn-effect:active {
-    color: #0e83cd;
-}
-
-.btn-effect:hover:after,
-.btn-effect:active:after {
-    width: 100%;
-} */
-
-
-/* Project laughtbox setup */
 
 .fancybox-item.fancybox-close {
     background: url("../img/icons/close.png") no-repeat scroll 0 0 transparent;
@@ -532,9 +495,7 @@ h1.navbar-brand {
     left: 0;
 }
 
-/*=================================================================
-	sobre
-==================================================================*/
+
 
 #sobre {
     background-color: #009EE3;
@@ -596,9 +557,7 @@ h1.navbar-brand {
     margin-left: 135px;
 }
 
-/*=================================================================
-	Services
-==================================================================*/
+
 
 .service-icon {
     border: 3px solid transparent;
@@ -639,9 +598,7 @@ h1.navbar-brand {
     text-transform: uppercase;
 }
 
-/*=================================================================
-	Membros
-==================================================================*/
+
 
 .project-wrapper {
     margin: 0;
@@ -750,9 +707,7 @@ ul.external li a:hover {
     padding-top: 0;
 }
 
-/*=================================================================
-	mej
-==================================================================*/
+
 
 
 #mej {
@@ -970,9 +925,6 @@ ul.external li a:hover {
 }
 
 
-/*=================================================================
-	Contact
-==================================================================*/
 
 .input-field {
     margin-bottom: 10px;
@@ -1026,9 +978,7 @@ textarea.form-control {
 }
 
 
-/*============================================================
-	Google Maps
-==============================================================*/
+
 
 #google-map {
     padding: 0;
@@ -1040,9 +990,6 @@ textarea.form-control {
 }
 
 
-/*============================================================
-	Footer
-==============================================================*/
 
 #footer {
     background-color: #2E2E2E;
@@ -1156,23 +1103,14 @@ textarea.form-control {
 }
 
 
-
-/*============================================================ 
-	Responsive Styles
- ============================================================*/
-
-/*============================================================
-	For Small Desktop
-==============================================================*/
-
 @media (min-width: 980px) and (max-width: 1150px) {
 
-/*sobre*/
+
     #sobre .welcome-block img {
         margin-bottom: 30px;
     }
 
-/* portfolio */
+
     figcaption.mask {
         bottom: -151px;
     }
@@ -1183,13 +1121,10 @@ textarea.form-control {
 }
 
 
-/*============================================================
-	Tablet (Portrait) Design for a width of 768px
-==============================================================*/
 
 @media (min-width: 768px) and (max-width: 979px) {
 
-/* home slider  */
+
     .caption-content h2 {
         font-size: 40px;
     }
@@ -1202,7 +1137,7 @@ textarea.form-control {
         font-size: 45px;
     }
 
-/* sobre */
+
     .recent-works {
         margin-bottom: 50px;
     }
@@ -1211,12 +1146,12 @@ textarea.form-control {
         margin-bottom: 50px;
     }
 
-/* portfolio */
+
     .portfolio-item {
         width: 48%;
     }
 
-/* testimonial */
+
     .testimonial-item {
         width: 100%;
     }
@@ -1229,21 +1164,19 @@ textarea.form-control {
         bottom: -35px;
     }
 
-/* price */
+
     .price-table {
         margin-bottom: 50px;
     }
 
-/* contact form */
+
     .contact-form {
         margin-bottom: 50px;
     }
 }
 
 
-/*============================================================
-	Mobile (Portrait) Design for a width of 320px
-==============================================================*/
+
 
 @media only screen and (max-width: 767px) {
 
@@ -1263,7 +1196,7 @@ textarea.form-control {
         left: 30%;
     }
 
-/*navigation*/
+
     .navbar-inverse .navbar-toggle {
         border-color: #000;
     }
@@ -1273,7 +1206,7 @@ textarea.form-control {
         background-color: transparent;
     }
 
-/* slider */
+
     .caption-content h2 {
         font-size: 18px;
     }
@@ -1292,7 +1225,7 @@ textarea.form-control {
         font-size: 22px;
     }
 
-/* sobre */
+
     .recent-works {
         margin-bottom: 85px;
     }
@@ -1314,12 +1247,12 @@ textarea.form-control {
         margin: 0 25px 15px 0;
     }
 
-/* service */
+
     .service-item {
         width: 100%;
     }
 
-/*portfolio*/
+
     .portfolio-item {
         margin: 0 auto 10px;
         font-size: 14px;
@@ -1332,7 +1265,7 @@ textarea.form-control {
         padding: 15px;
     }
 
-/* lightbox */
+
     .fancybox-title h3 {
         font-size: 20px;
     }
@@ -1341,7 +1274,7 @@ textarea.form-control {
         font-size: 14px;
     }
 
-/* testimonial */
+
     .testimonial-item {
         width: 95%;
     }
@@ -1355,12 +1288,12 @@ textarea.form-control {
         margin: 30px 0 20px;
     }
 
-/* price */
+
     .price-table {
         margin-bottom: 50px;
     }
 
-/* follow us */
+
     .social-button li:nth-child(2) {
         margin: 0 25px;
     }
@@ -1371,12 +1304,12 @@ textarea.form-control {
         width: 65px;
     }
 
-/* contact form */
+
     .contact-form {
         margin-bottom: 50px;
     }
 
-/* footer */
+
     .footer-content {
         width: 100%;
     }
@@ -1387,9 +1320,7 @@ textarea.form-control {
 }
 
 
-/*============================================================
-	Mobile (Landscape) Design for a width of 480px
-==============================================================*/
+
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
@@ -1397,7 +1328,7 @@ textarea.form-control {
         left: 38%;
     }
 
-/* home slider */
+
     .caption-content h2 {
         font-size: 35px;
     }
@@ -1410,20 +1341,20 @@ textarea.form-control {
         font-size: 35px;
     }
 
-/*sobre*/
+
 
     #sobre .welcome-block h3 {
         margin: 0 0 35px;
     }
 
-/* service */
+
 
     .service-item {
         margin: 0 auto 50px;
         width: 55%;
     }
 
-/* portfolio */
+
     .portfolio-item {
         width: 48%;
     }
@@ -1434,7 +1365,7 @@ textarea.form-control {
         bottom: -132px;
     }
 
-/* testimonial */
+
     .testimonial-item {
         width: 80%;
     }
@@ -1443,7 +1374,7 @@ textarea.form-control {
         bottom: 160px;
     }
 
-/* social */
+
     .social-button li:nth-child(2) {
         margin: 0 50px;
     }
@@ -1454,17 +1385,17 @@ textarea.form-control {
         width: 90px;
     }
 
-/* price */
+
     .price-table {
         margin-bottom: 50px;
     }
 
-/* contact form */
+
     .contact-form {
         margin-bottom: 50px;
     }
 
-/* footer */
+
     .footer-content {
         width: 380px;
     }
