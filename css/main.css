@@ -7,9 +7,15 @@
     border-bottom: 1px solid #fff;
 }
 .servico{
-	float:left;
-	position: relative;
-	left:33.5%;
+	position:relative;
+}
+#itemServico1{
+	left:30%;
+	width:200px;
+}
+#itemServico2{
+	left:30%;
+	width:200px;
 }
 .letraMenor h3{
 	font-size:18px;
